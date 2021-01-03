@@ -1,0 +1,9 @@
+{
+	"compileOnSave": true,
+	"compilerOptions": {
+		"charset": "utf8",
+		"outDir": "../dist",
+		"module": "ESNext",
+		"sourceMap": true
+	}
+}
