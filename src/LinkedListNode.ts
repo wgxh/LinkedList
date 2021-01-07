@@ -1,3 +1,3 @@
-export default class LinkedListNode {
-    constructor(public value: any = "", public next: LinkedListNode = null) {};
+export default class LinkedListNode<T = {}> {
+	constructor(public value: T, public next: LinkedListNode<unknown> = null) {}
 }
